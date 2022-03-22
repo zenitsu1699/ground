@@ -1,0 +1,22 @@
+# Project
+
+## DESCRIPTION
+
+> compilation de shared object en cpp
+
+## Usage
+
+```bash
+
+> core : g++ -o core *.cpp -Wpedantic -pedantic-errors -Wextra -Wall -W -ldl
+> lib  : g++ -o shared_lib.so *.cpp -Wpedantic -pedantic-errors -Wextra -Wall -W -fPIC -shared
+
+```
+
+<div align="center">
+
+---
+
+{ gerard.toudogin@epitech.eu }
+
+</div>
